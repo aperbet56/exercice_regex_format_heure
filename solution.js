@@ -14,8 +14,6 @@ const isValidHour = (str) => {
   // Une méthode test permet de tester la présence d'une correspondance dans une chaîne de caractères. Elle renvoie true ou false.
   return hourFormatRegex.test(str);
 };
-// Appel de la fonction
-isValidHour(str);
 
 /* Tests à passer */
 
